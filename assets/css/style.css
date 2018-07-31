@@ -1,0 +1,129 @@
+/* body{
+    background-color: darkgray;
+} */
+p{
+    color: #777777;
+}
+.full-header {
+    
+    padding: 0px 60px;
+    background-color: #ffffff;
+    border: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+}
+.header {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 80px;
+    position: relative;
+    width:960px;
+    margin: 0px;
+}
+.nav {
+    position: absolute; 
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+}
+.name-tag {
+    background-color: #4aaaa5;
+    float: left;
+    min-width: 150px;
+    color: #ffffff;
+    padding: 11px;
+}
+.body{
+    clear: both;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 60px;
+    width: 960px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+
+.portfolio {
+    
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 0px 1px 0px 1px;
+}
+
+.portfolio, .contact, .about {
+    padding: 0px 10px;
+}
+
+.section-heading{
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-color: #dddddd;
+    border-bottom-width: 1px;
+    margin: 20px 20px;
+    padding: 20px 0px;
+}
+
+.css-image{
+float: left;
+}
+
+.lable{
+    margin: 0px 20px;
+    padding-top: 10px;
+}
+
+.input-name, .input-email, .input-message{
+    margin: 5px 20px;
+    width: 915px;
+}
+
+.input-message{
+    height: 100px;
+}
+
+.btn-send{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin:0px 20px 20px 20px;
+    padding: 5px 20px;
+    border-style: none;
+}
+
+.port-tag{
+    float: left;
+    position: relative;
+    margin:20px;
+}
+.port-img{
+    width: 200px;
+    height: 200px;
+}
+.port-title{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+.footer{
+    color: #dddddd;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.clearfix::after/*, #left, #center, #right*/ {
+  content: "";
+  display: block;
+  clear: both;
+}
