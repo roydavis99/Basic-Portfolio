@@ -33,6 +33,13 @@ p{
     right: 0px;
     padding: 10px;
 }
+.nav a:link{
+    text-decoration: none;
+}
+.nav a:visited{
+    text-decoration: none;
+}
+
 .name-tag {
     background-color: #4aaaa5;
     float: left;
