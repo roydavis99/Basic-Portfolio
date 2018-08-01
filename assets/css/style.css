@@ -11,6 +11,12 @@ p{
     border: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+    margin: 0px 0px 0px 0px;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 
 }
 .header {
@@ -18,8 +24,8 @@ p{
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 80px;
     position: relative;
-    width:960px;
-    margin: 0px;
+    width: 960px;
+    margin: 6px;
 }
 .nav {
     position: absolute; 
@@ -38,7 +44,7 @@ p{
     clear: both;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 60px;
+    margin: 120px 60px 60px 60px;
     width: 960px;
     border-style: solid;
     border-color: #dddddd;
